@@ -4698,6 +4698,18 @@ input, select, textarea {
 		justify-content: space-evenly;
 		margin: 0.5rem 2rem;
 	}
+	@media(max-width:650px){
+		.skills > i {
+			font-size: 4rem;
+			margin: 0 auto;
+		}
+	}
+	@media(max-width: 500px){
+		.skills > i {
+			font-size: 4rem;
+			margin: 0 auto;
+		}
+	}
 	.fa-html5{
 		color: #F16529;
 	}
