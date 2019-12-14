@@ -3234,12 +3234,13 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			background-color: #212931;
-			background-image: url("../../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
+			background-image: url("../../images/CodePic.jpg"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../../images/bg.jpg");
 			background-size: auto,								auto,														100% auto;
 			background-position: center,								center,														top center;
 			background-repeat: repeat,								no-repeat,													no-repeat;
 			background-attachment: scroll,								scroll,														scroll;
 			z-index: -1;
+			opacity: 0.2;
 		}
 
 			#wrapper > .bg.fixed {
@@ -4686,4 +4687,32 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+	.skills {
+		display: flex;
+		justify-content: center;
+	}
+	.skills > i {
+		font-size: 5rem;
+		justify-content: space-evenly;
+		margin: 0.5rem 2rem;
+	}
+	.fa-html5{
+		color: #F16529;
+	}
+	.fa-css3-alt{
+		color: #2965F1;
+	}
+	.fa-js{
+		color: #F0DB4F;
+	}
+	.fa-react{
+		color: #00D8FF;
+	}
+	.fa-node{
+		color: #83CD29;
+	}
+	.portfolioTitle{
+		text-align: center;
 	}
