@@ -4728,3 +4728,8 @@ input, select, textarea {
 	.portfolioTitle{
 		text-align: center;
 	}
+	.submitMail{
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		border: 2px solid #717981;
+		padding: 0.6rem 1.2rem;
+	}
